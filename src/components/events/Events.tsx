@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "./Events.module.css";
 
 export const Events = () => {
@@ -6,5 +6,5 @@ export const Events = () => {
     <div className={styles.events}>
       <span className={styles.title}>Events</span>
     </div>
-  )
-}
+  );
+};

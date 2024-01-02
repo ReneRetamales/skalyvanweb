@@ -15,11 +15,8 @@ export const Music = () => {
     <div className={styles.music}>
       <span className={styles.title}>Music</span>
       <div className={styles.info}>
-        <span className={styles.text}>
-          Listen our music in your favourite streaming platform!
-        </span>
-        <div className={styles.listen}>
-          <span>Listen Ashes To Remain</span>
+        <div className={styles.text}>
+          <span>Listen our music in your favourite streaming platform!</span>
         </div>
         <div className={styles.links}>
           <Link
@@ -66,6 +63,7 @@ export const Music = () => {
           </Link>
         </div>
       </div>
+
       <div className={styles.discography}>
         <div className={styles.cover}>
           <Image
@@ -75,6 +73,53 @@ export const Music = () => {
             width={3000}
             height={3000}
           />
+
+          <div className={styles.document}>
+            <div className={styles.square}>
+              <div className={styles.listens}>
+                <Link
+                  href={
+                    "https://open.spotify.com/intl-es/album/2Tb5zXSe2LrDrB8c75aAbI"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.listen}
+                >
+                  <SiSpotify />
+                </Link>
+                <Link
+                  href={
+                    "https://www.youtube.com/watch?v=-GYRrXVXgJ0&list=PLtAyyY34HxpJRXCfb1HufFzg38VLYeO2Q"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.listen}
+                >
+                  <SiYoutube />
+                </Link>
+                <Link
+                  href={
+                    "https://music.youtube.com/playlist?list=OLAK5uy_n6jUnhy0aOz0ki4RRCX4LYYRxlG_wwdr0"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.listen}
+                >
+                  <SiYoutubemusic />
+                </Link>
+                <Link
+                  href={
+                    "https://music.apple.com/mx/album/ashes-to-remain/1701558663"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.listen}
+                >
+                  <SiApplemusic />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

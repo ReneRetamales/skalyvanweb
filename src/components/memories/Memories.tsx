@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "./Memories.module.css";
 
 export const Memories = () => {
@@ -12,5 +12,5 @@ export const Memories = () => {
         <span>Members</span>
       </div>
     </div>
-  )
-}
+  );
+};
