@@ -24,6 +24,8 @@
   color: rgb(200, 200, 200);
 }
 .logo {
+  width: 7.5rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
   cursor: pointer;

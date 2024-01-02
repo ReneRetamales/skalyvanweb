@@ -18,6 +18,9 @@ export const Music = () => {
         <span className={styles.text}>
           Listen our music in your favourite streaming platform!
         </span>
+        <div className={styles.listen}>
+          <span>Listen Ashes To Remain</span>
+        </div>
         <div className={styles.links}>
           <Link
             href={
@@ -66,12 +69,11 @@ export const Music = () => {
       <div className={styles.discography}>
         <div className={styles.cover}>
           <Image
-            className={styles.image}
             src={"/imgs/ashescover.jpg"}
             alt="Ashes To Remain Album Cover"
-            width={400}
-            height={400}
-            loading="lazy"
+            className={styles.image}
+            width={3000}
+            height={3000}
           />
         </div>
       </div>

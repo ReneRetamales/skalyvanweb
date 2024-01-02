@@ -31,12 +31,13 @@ export const NavBar: React.FC<NavBarProps> = () => {
           Memories
         </span>
       </div>
-      <div className={styles.logo} onClick={() => scrollToSection("home")}>
+      <div onClick={() => scrollToSection("home")}>
         <Image
           src={"/imgs/logowhite.png"}
           alt="SkalyVan Logo"
-          width={125}
-          height={45}
+          className={styles.logo}
+          width={375}
+          height={125}
         />
       </div>
       <div className={styles.div}>

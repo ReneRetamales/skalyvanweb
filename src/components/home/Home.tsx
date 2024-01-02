@@ -16,19 +16,20 @@ import {
 export const Home = () => {
   return (
     <div className={styles.home}>
-      <img
+      <Image
         src="/imgs/background.jpg"
         alt="SkalyVan Band Members Background"
-        className={styles.video}
+        className={styles.background}
+        width={5738}
+        height={4000}
       />
       <div>
         <Image
-          className={styles.logo}
           src={"/imgs/logowhite.png"}
           alt="SkalyVan Logo"
-          width={350}
+          className={styles.logo}
+          width={375}
           height={125}
-          loading="lazy"
         />
       </div>
       <div className={styles.footer}>
