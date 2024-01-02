@@ -1,0 +1,33 @@
+.page {
+  text-transform: uppercase;
+}
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.watch {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.music {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.memories {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.events {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.social {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,70 @@
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+.home {
+  flex: 1;
+  max-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.logo {
+  width: 100%;
+  animation: zoomInOut 10s infinite;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  text-transform: none;
+  font-weight: 200;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+}
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  margin: 0rem 1rem;
+}
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0rem 1rem;
+  font-size: 0.75rem;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  margin: 0rem 1rem;
+  gap: 0.5rem;
+}
+.link {
+  display: flex;
+  align-items: center;
+}
+.link:hover {
+  color: rgb(200, 200, 200);
+}

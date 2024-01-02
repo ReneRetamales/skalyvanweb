@@ -1,0 +1,22 @@
+.social {
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 17.5rem;
+  color: black;
+  padding: 2rem;
+  background: linear-gradient(
+    to right,
+    rgba(250, 251, 246, 0.75) 0%,
+    rgba(226, 235, 232, 0.75) 50%,
+    rgba(237, 239, 236, 0.75) 100%
+  );
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  position: absolute;
+  margin-bottom: 37.5rem;
+}
